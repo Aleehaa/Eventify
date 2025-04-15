@@ -1,0 +1,143 @@
+/* Base */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background: #14213d;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav button {
+    margin-left: 10px;
+  }
+  .header-button {
+    background-color:  #14213d; /* Dark Blue */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+
+  
+  
+  /* Button */
+  .-button {
+    background-color: #f77f00;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+  .-button:hover {
+    background-color:  #0d3b66;;
+  }
+  
+  /* Banner */
+  .banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1rem 0.5rem;
+  }
+  .banner-img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  .arrow-button {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #ff9900; /* Orange color for the arrow */
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 2rem 1rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Grid */
+  .theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  .theme-box {
+    background-color: #1e2a3a;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Info Sections */
+  .info-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+  .info-section.reverse {
+    flex-direction: row-reverse;
+  }
+  .info-img {
+    flex: 1;
+    max-width: 500px;
+    border-radius: 12px;
+  }
+  .info-text {
+    flex: 1;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto; /* Centralized form */
+  }
+  .contact-form input,
+  .contact-form textarea {
+    background: #1b263b;
+    color: white;
+    border: 1px solid #f77f00;
+    padding: 0.8rem;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: #14213d;
+    margin-top: 2rem;
+  }
+  
