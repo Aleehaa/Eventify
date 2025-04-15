@@ -1,74 +1,42 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+**Event Registration System**
+--------------------------------
+A simple and user-friendly Event Registration System built with React (or your tech stack), where users can:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📅 Create and manage events
 
-## Available Scripts
+📝 Register for recommended events
 
-In the project directory, you can run:
+👤 Create accounts and manage registrations
 
-### `npm start`
+📜 View event history
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✏️ Edit or delete their registrations
+-------------------
+ **Features**
+User Authentication
+Users can create an account and log in securely.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Event Creation & Management
+Authenticated users can create new events with details like name, date, time, and location.
 
-### `npm test`
+Event Registration
+Users can register for any event or choose from a list of recommended events.
+--------------------------
+**CRUD Operations**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create a new event or registration
 
-### `npm run build`
+Read/view event history
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Update event registration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Delete registration if needed
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Event History View
+Users can track past or upcoming events they registered for.
 
-### `npm run eject`
+-------------------------------
+ **Tech Stack**
+Frontend: React / React Native (or specify your stack)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Eventify
->>>>>>> 4598418c25136e71f71b53289de7a265e01448a1
+Backend: Node.js 
