@@ -35,4 +35,4 @@ Users can **track past or upcoming events** they registered for.
 ## 🛠️ Tech Stack
 
 - **Frontend**: React / React Native *(or specify your stack)*
-- **Backend**: Node.js
+- **Backend**: Node.js.
